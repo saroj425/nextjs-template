@@ -1,6 +1,14 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./common/Header";
+import 'keen-slider/keen-slider.min.css';
+import React from 'react';
+import Footer from "./common/Footer";
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +35,7 @@ export default function RootLayout({ children }) {
             {children} 
           </main>
         </div>
+        <Footer/>
       </body>
     </html>
   );

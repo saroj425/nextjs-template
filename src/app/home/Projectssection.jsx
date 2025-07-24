@@ -8,18 +8,18 @@ import project6 from '../../../public/images/projects/project6.jpg';
 import project7 from '../../../public/images/projects/project7.jpg';
 import project8 from '../../../public/images/projects/project8.jpg';
 const projects = [
-  { image: project1, title: '', subtitle: '' },
-  { image: project2, title: '', subtitle: '' },
-  { image: project3, title: '', subtitle: '' },
-  {
-    image: project4,
-    title: 'App Development',
-    subtitle: 'Research and startup',
-  },
-  { image:project5, title: '', subtitle: '' },
-  { image:project6, title: '', subtitle: '' },
-  { image:project7, title: '', subtitle: '' },
-  { image:project8, title: '', subtitle: '' },
+  { image: project1, title: 'Web Deelopment', subtitle: '' },
+  { image: project2, title: 'Digitl Marketting', subtitle: '' },
+  { image: project3, title: 'Ecommerce', subtitle: '' },
+  // {
+  //   image: project4,
+  //   title: 'App Development',
+  //   subtitle: 'Research and startup',
+  // },
+  { image:project5, title: 'Sopify', subtitle: '' },
+  { image:project6, title: 'Web deelopment', subtitle: '' },
+  // { image:project7, title: 'Web deelopment', subtitle: '' },
+  { image:project8, title: 'Web deelopment', subtitle: '' },
 ];
 
 export default function Projectssection() {

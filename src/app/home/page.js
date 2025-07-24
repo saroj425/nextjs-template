@@ -6,6 +6,7 @@ import Creativeservices from './Creativeservices'
 import WebMobileDevelopment from './WebMobileDevelopment'
 import Whychooseus from './Whychooseus'
 import Projectssection from './Projectssection'
+import Blogsection from './Blogsection'
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
       <WebMobileDevelopment/>
       <Whychooseus/>
       <Projectssection/>
+      <Blogsection/>
     </div>
   )
 }
